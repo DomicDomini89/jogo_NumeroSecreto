@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 1000;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -10,7 +10,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Projeto Jogo WSD');
+    exibirTextoNaTela('h1', 'Projeto:Jogo-WSD');
     exibirTextoNaTela('p', 'Escolha o N° entre 1 e 10');
 }
 
